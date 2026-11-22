@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BlinkLens — Contact, Support Form &amp; Accessibility</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header>
+    <div class="brand-row">
+      <img src="blinklens-icon.png" alt="BlinkLens eye magnifier app icon" width="56" height="56" />
+      <div>
+        <p class="brand-title">BlinkLens Legal &amp; Privacy Center</p>
+        <p class="brand-subtitle">Package: <code>com.blinklens.app</code> &nbsp;|&nbsp; Effective Date: November 22, 2026</p>
+      </div>
+    </div>
+    <nav aria-label="Legal pages">
+      <ul>
+        <li><a href="index.html">Privacy Policy</a></li>
+        <li><a href="terms.html">Terms &amp; Conditions</a></li>
+        <li><a href="cookies.html">Cookie Policy</a></li>
+        <li><a href="refunds.html">Refund Policy</a></li>
+        <li><a href="contact.html" aria-current="page">Contact &amp; Support</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <h1>Contact, Business Details &amp; Support Form</h1>
+
+    <h2>1. Business / Operator Details</h2>
+    <div class="table-wrap">
+      <table>
+        <tbody>
+          <tr>
+            <th scope="row">App / Brand</th>
+            <td>BlinkLens (<code>com.blinklens.app</code>)</td>
+          </tr>
+          <tr>
+            <th scope="row">Legal Operator Name</th>
+            <td>Baran Sarıbeyler</td>
+          </tr>
+          <tr>
+            <th scope="row">Location</th>
+            <td>Antalya, Türkiye</td>
+          </tr>
+          <tr>
+            <th scope="row">Support &amp; Privacy Email</th>
+            <td><a href="mailto:nothexaline@gmail.com">nothexaline@gmail.com</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2>2. Accessible Support &amp; Privacy Request Form</h2>
+    <p>
+      Only necessary fields are requested. You can also email <a href="mailto:nothexaline@gmail.com">nothexaline@gmail.com</a> directly without using this form.
+    </p>
+
+    <form action="https://formsubmit.co/nothexaline@gmail.com" method="POST">
+      <input type="hidden" name="_subject" value="BlinkLens Web Support / Privacy Request" />
+
+      <div class="form-group">
+        <label for="support-topic">Topic (Required)</label>
+        <select id="support-topic" name="topic" required>
+          <option value="Bug Report">Bug Report</option>
+          <option value="Accessibility Feedback">Accessibility Feedback</option>
+          <option value="Refund / Billing">Refund / Billing Question</option>
+          <option value="Privacy / Data Rights">Privacy / Data Rights Request</option>
+          <option value="General Suggestion">General Suggestion</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="reply-email">Your Reply Email (Optional)</label>
+        <input type="email" id="reply-email" name="email" autocomplete="email" aria-describedby="email-help" placeholder="name@example.com" />
+        <p id="email-help" class="helper-text">Only provide an email if you want us to reply to you.</p>
+      </div>
+
+      <div class="form-group">
+        <label for="support-message">Message (Required)</label>
+        <textarea id="support-message" name="message" rows="5" required aria-describedby="msg-help" placeholder="Describe your question, bug, or request..."></textarea>
+        <p id="msg-help" class="helper-text">Please do not include passwords, bank details, or sensitive health records.</p>
+      </div>
+
+      <div class="checkbox-row">
+        <input type="checkbox" id="form-consent" name="privacy_consent" value="accepted" required />
+        <label for="form-consent">
+          <strong>Required Consent:</strong> I consent to sending this message to BlinkLens support (<code>nothexaline@gmail.com</code> via FormSubmit.co) solely to handle my request, as described in the <a href="index.html">Privacy Policy</a>.
+        </label>
+      </div>
+
+      <button type="submit">Send Support Request</button>
+    </form>
+
+    <h2>3. Accessibility Statement (WCAG 2.1 Level AA)</h2>
+    <p>
+      This legal website is built for keyboard-only navigation, screen readers, high color contrast in Day and Dark modes, clear focus outlines, and at least 48px tap targets. If you encounter any accessibility barrier in BlinkLens or on this website, please email <a href="mailto:nothexaline@gmail.com">nothexaline@gmail.com</a> with "Accessibility" in the subject line.
+    </p>
+
+    <hr />
+
+    <section lang="tr">
+      <h1>İletişim ve Erişilebilirlik Beyanı (Türkçe)</h1>
+      <p>
+        Destek, iade, erişilebilirlik geri bildirimi veya KVKK başvurularınız için yukarıdaki formu kullanabilir ya da doğrudan <a href="mailto:nothexaline@gmail.com">nothexaline@gmail.com</a> adresine yazabilirsiniz. Formu göndermeden önce gizlilik onay kutusunu işaretlemeniz gerekir.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>
+      <strong>BlinkLens</strong> (<code>com.blinklens.app</code>) &nbsp;|&nbsp;
+      <a href="index.html">Privacy</a> &middot;
+      <a href="terms.html">Terms</a> &middot;
+      <a href="cookies.html">Cookies</a> &middot;
+      <a href="refunds.html">Refunds</a> &middot;
+      <a href="licenses.html">Licenses</a>
+    </p>
+  </footer>
+</body>
+</html>
